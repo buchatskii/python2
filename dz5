@@ -1,0 +1,27 @@
+# Задача 26
+# def step(number, degree):
+#     if degree == 0:
+#         return 1
+#     if number == 0:
+#         return 0
+#     if degree == 1:
+#         return (number)
+#     if degree >> 0:
+#         return round(number ** degree, 6)
+#
+#
+# number = int(input("Введите число а: "))
+# degree = int(input("Введите число б: "))
+# print(step(number, degree))
+
+# Задача 28
+def step(number, degree):
+    if number == -1 or degree == -1:
+        return "Нарушено условие"
+    if number >> 0 or degree >> 0:
+        return number + degree
+
+
+number = int(input("Введите число а: "))
+degree = int(input("Введите число б: "))
+print(step(number, degree))
