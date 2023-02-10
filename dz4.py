@@ -1,6 +1,6 @@
 import random
-num_1 = 3
-num_2 = 7
+num_1 = 6
+num_2 = 10
 random_list_1 = []
 random_list_2 = []
 count = 1
@@ -15,3 +15,5 @@ while count_2 <= num_2:
     count_2 += 1
 random_list_2.sort()
 print(random_list_2)
+c = set(random_list_1) & set(random_list_2)
+print(sorted(c))
