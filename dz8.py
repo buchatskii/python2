@@ -26,5 +26,4 @@ def import_new_data():
 #     print("Данные удалены")
 
 
-
 import_new_data()
